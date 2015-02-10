@@ -61,8 +61,11 @@
 % Index
 \usepackage{calc} % For simpler calculation - used for spacing the index letter headings correctly
 \usepackage{makeidx} % Required to make an index
+
+%\usepackage{nomencl}
 \makeindex % Tells LaTeX to create the files required for indexing
 
+%\makenomenclature
 
 %----------------------------------------------------------------------------------------
 
@@ -120,7 +123,7 @@ Magnus Ekh
 ~\vfill
 \thispagestyle{empty}
 
-\noindent Copyright \copyright\ 20xx xxxxxxxxx\\ % Copyright notice
+\noindent Copyright \copyright\ 2015 Kristoffer Carlsson\\ % Copyright notice
 
 \noindent \textsc{Published by xxxxxxxxxxxxxx}\\ % Publisher
 
@@ -223,7 +226,7 @@ A set $\mathcal{D}(G)$ in dense in $L^2(G)$, $|\cdot|_0$.
 
 %------------------------------------------------
 
-\section{Definitions}\index{Definitions}
+\section{Definitions}
 
 This is an example of a definition. A definition could be mathematical or it could define a concept.
 
@@ -395,6 +398,10 @@ Treatment 3 & 0.0009271 & 0.296 \\
 \setlength{\columnsep}{0.75cm}
 \addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}}
 \printindex
+
+
+
+%\printnomenclature
 
 %----------------------------------------------------------------------------------------
 

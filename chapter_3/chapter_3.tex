@@ -9,32 +9,32 @@ In this chapter we present
 
 \subsection{Strong and weak format}
 
-We consider a given body occupying the domain $\Omega$, and we restrict to quasistatic conditions (for simplicity). The strong format of the coupled problem of finding $\bm{u}(\bm{x},t), k(\bm{x},t)$ is space-time is given as
+We consider a given body occupying the domain $\Omega$, and we restrict to quasistatic conditions (for simplicity). The strong format of the coupled problem of finding $\u(\bm{x},t), k(\bm{x},t)$ is space-time is given as
 %----------------------------------------------------------------------------
 \begin{subequations}\label{eq:8-208}
     \begin{align}
-    - \bm{\sigma}\cdot\bm{\nabla} &= \bm{b} \quad
+    - \stress\cdot\grad &= \bm{b} \quad
     \mbox{in }  \Omega
 \label{eq:8-208a} \\
-    \kappa - \bm{\xi}\cdot\bm{\nabla} &= b^{\mathrm \mu} \quad
+    \kappa - \bm{\xi}\cdot\grad &= b^\micro \quad
     \mbox{in }  \Omega
 \label{eq:8-208b}
     \end{align}
 \end{subequations}
 %----------------------------------------------------------------------------
-Obvious choice of boundary conditions on the body with boundary $\Gamma$ are of the Dirichlet and Neumann type as follows:
+Obvious choice of boundary conditions\index{boundary conditions} on the body with boundary $\Gamma$ are of the Dirichlet and Neumann type as follows:
 %----------------------------------------------------------------------------
 \begin{subequations}\label{eq:8-308}
     \begin{align}
-    \bm{u} &= \bbi{u} \quad \mbox{on }  \Gamma_{\mathrm D}, \quad \bm{t}_{\mathrm n}\defeq\bm{\sigma}\cdot\bm{n} = \bbi{t} \quad \mbox{on }  \Gamma_{\mathrm N}
+    \u &= \bbi{u} \quad \mbox{on }  \Gamma_{\mathrm D}, \quad \bm{t}_{\mathrm n}\defeq \stress\cdot\bm{n} = \bbi{t} \quad \mbox{on }  \Gamma_{\mathrm N}
 \label{eq:8-308a} \\
-    k &= \bar{k} \quad \mbox{on }  \Gamma_{\mathrm D}^{\mathrm \mu}, \quad t_{\mathrm n}^{\mathrm \mu}\defeq\bm{\xi}\cdot\bm{n} = \bar{t}^{\mathrm \mu} \quad \mbox{on }  \Gamma_{\mathrm N}^{\mathrm \mu}
+    k &= \bar{k} \quad \mbox{on }  \Gamma_{\mathrm D}^\micro, \quad t_{\mathrm n}^\micro\defeq\bm{\xi}\cdot\bm{n} = \bar{t}^\micro \quad \mbox{on }  \Gamma_{\mathrm N}^\micro
 \label{eq:8-308b}
     \end{align}
 
 \end{subequations}
 %---------------------------------------------------------------------------
-where $\Gamma=\Gamma_{\mathrm D}\cup\Gamma_{\mathrm N}=\Gamma_{\mathrm D}^{\mathrm \mu}\cup\Gamma_{\mathrm N}^{\mathrm \mu}$.
+where $\Gamma=\Gamma_{\mathrm D}\cup\Gamma_{\mathrm N}=\Gamma_{\mathrm D}^\micro\cup\Gamma_{\mathrm N}^\micro$.
 
 \subsection{Time-discrete variational formulation}
 

@@ -2,6 +2,61 @@
 
 \usepackage{bm}
 
+\newcommand{\subn}{{\mathrm{n}}}
+
+% Cont mechanics
+\newcommand{\boundary}{\partial \mathcal{B}}
+\newcommand{\body}{\mathcal{B}}
+\newcommand{\vint}[1]{\int_{\body} #1 \id V}
+\newcommand{\sint}[1]{\int_{\boundary} #1 \id S}
+\newcommand{\force}{\bm{\mathcal{F}}}
+\newcommand{\tract}{\bm{t}_\subn}
+\newcommand{\micforce}{{\mathcal F}_\ext^{\mathrm{\mu}}}
+\newcommand{\micro}{\mathrm{\mu}}
+\newcommand{\microstress}{\stress^\micro}
+\newcommand{\microtract}{t_\subn^\micro}
+% Displacements
+\renewcommand{\u}{\bm {u}}
+\newcommand{\udot}{\dot{\u}}
+\newcommand{\uddot}{\ddot{\u}}
+\newcommand{\g}{\bm {g}}
+\newcommand{\gdot}{\dot{\g}}
+\newcommand{\gddot}{\ddot{\g}}
+\newcommand{\normal}{\bm{n}}
+
+\newcommand{\momum}{\bm{\mathcal{P}}}
+\newcommand{\ext}{{\mathrm{ext}}}
+
+\newcommand{\stress}{\bm{\sigma}}
+\newcommand{\strain}{\bm{\epsilon}}
+
+\newcommand{\norm}{{\mathrm{n}}}
+\newcommand{\grad}{{\bm\nabla}}
+
+
+
+% Powers
+\newcommand{\mechpow}{{\mathcal P}_\ext}
+\newcommand{\thermpow}{{\mathcal Q}_\ext}
+\newcommand{\micpow}{{\mathcal P}_{\mathrm{ext}}^{\mathrm{\mu}}}
+
+\newcommand{\entropy}{{\mathcal S}}
+
+\newcommand{\roentropy}{\mathcal{R}_\mathrm{ext}}
+
+\newcommand{\ddt}{\frac{\mathrm{d}}{\mathrm{dt}}}
+
+\newcommand{\mechdiss}{\mathcal{D}_{\mathrm{mech}}}
+\newcommand{\thermdiss}{\mathcal{D}_{\mathrm{therm}}}
+
+\newcommand{\pfrac}[2]{\frac{\partial #1}{\partial #2}}
+
+\newcommand{\en}{\mathrm{en}}
+\newcommand{\di}{\mathrm{di}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newcommand{\bi}[1]{\mbox{\boldmath $#1$}}
 \newcommand{\bbi}[1]{\bar{\mbox{\boldmath $#1$}}}
 \newcommand{\hbi}[1]{\hat{\mbox{\boldmath $#1$}}}
