@@ -1,0 +1,51 @@
+%!TEX root = ../main.tex
+
+\chapter{Boundary value problems with gradient variables}
+
+
+In this chapter we present 
+
+\section{Primary (canonical) problem formulation}
+
+\subsection{Strong and weak format}
+
+We consider a given body occupying the domain $\Omega$, and we restrict to quasistatic conditions (for simplicity). The strong format of the coupled problem of finding $\bm{u}(\bm{x},t), k(\bm{x},t)$ is space-time is given as
+%----------------------------------------------------------------------------
+\begin{subequations}\label{eq:8-208}
+    \begin{align}
+    - \bm{\sigma}\cdot\bm{\nabla} &= \bm{b} \quad
+    \mbox{in }  \Omega
+\label{eq:8-208a} \\
+    \kappa - \bm{\xi}\cdot\bm{\nabla} &= b^{\mathrm \mu} \quad
+    \mbox{in }  \Omega
+\label{eq:8-208b}
+    \end{align}
+\end{subequations}
+%----------------------------------------------------------------------------
+Obvious choice of boundary conditions on the body with boundary $\Gamma$ are of the Dirichlet and Neumann type as follows:
+%----------------------------------------------------------------------------
+\begin{subequations}\label{eq:8-308}
+    \begin{align}
+    \bm{u} &= \bbi{u} \quad \mbox{on }  \Gamma_{\mathrm D}, \quad \bm{t}_{\mathrm n}\defeq\bm{\sigma}\cdot\bm{n} = \bbi{t} \quad \mbox{on }  \Gamma_{\mathrm N}
+\label{eq:8-308a} \\
+    k &= \bar{k} \quad \mbox{on }  \Gamma_{\mathrm D}^{\mathrm \mu}, \quad t_{\mathrm n}^{\mathrm \mu}\defeq\bm{\xi}\cdot\bm{n} = \bar{t}^{\mathrm \mu} \quad \mbox{on }  \Gamma_{\mathrm N}^{\mathrm \mu}
+\label{eq:8-308b}
+    \end{align}
+
+\end{subequations}
+%---------------------------------------------------------------------------
+where $\Gamma=\Gamma_{\mathrm D}\cup\Gamma_{\mathrm N}=\Gamma_{\mathrm D}^{\mathrm \mu}\cup\Gamma_{\mathrm N}^{\mathrm \mu}$.
+
+\subsection{Time-discrete variational formulation}
+
+Function spaces $\bbU$, $\bbU^0$, $\bbK$, $\bbK^0$,
+
+\subsection{FEM}
+
+\section{Dual problem formulation}
+
+\subsection{Strong and weak format}
+
+\subsection{Time-discrete variational formulation}
+
+\subsection{FEM}
